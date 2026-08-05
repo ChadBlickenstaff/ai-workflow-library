@@ -1,0 +1,152 @@
+# Mental Model Framework
+
+A structured reasoning framework for transforming observations into durable systems.
+
+Rather than jumping directly to solutions, this framework forces each problem through a sequence of questions that uncover patterns, identify where human judgment matters, and determine how that judgment can become repeatable.
+
+---
+
+## Purpose
+
+Use this framework when analyzing:
+
+- business problems
+- workflows
+- operational systems
+- GTM processes
+- product ideas
+- organizational friction
+- AI workflow opportunities
+
+The goal is to move beyond solving a single problem and instead develop reusable mental models.
+
+---
+
+## The Framework
+
+### 1. Problem
+
+**What problem exists?**
+
+Define the underlying problem—not just the symptom.
+
+---
+
+### 2. Pattern
+
+**What recurring pattern creates this problem?**
+
+Look for repeatable behaviors rather than isolated events.
+
+---
+
+### 3. Decision
+
+**What decision needs to be made?**
+
+Identify the key decision driving the workflow.
+
+---
+
+### 4. Workflow
+
+**How is that decision currently made?**
+
+Map the existing process before proposing improvements.
+
+---
+
+### 5. Judgment
+
+**Where does human judgment enter?**
+
+Determine where experience, intuition, or context influences outcomes.
+
+---
+
+### 6. System
+
+**How could that judgment become explicit and repeatable?**
+
+Design workflows that operationalize good judgment rather than relying on individual expertise.
+
+---
+
+### 7. Adoption
+
+**Why would someone actually use it?**
+
+A better system that no one adopts creates no value.
+
+Consider:
+
+- friction
+- incentives
+- usability
+- trust
+- workflow fit
+
+---
+
+### 8. Feedback
+
+**How would the system learn and improve?**
+
+Every durable system should improve through usage.
+
+Identify:
+
+- feedback loops
+- success metrics
+- failure signals
+- continuous improvement mechanisms
+
+---
+
+### 9. Tool
+
+**What tool best supports the workflow?**
+
+Choose technology only after the workflow is understood.
+
+The tool should support the system—not define it.
+
+---
+
+## Core Principles
+
+- Solve systems, not symptoms.
+- Patterns matter more than isolated events.
+- Make judgment explicit before automating it.
+- Design for adoption before optimization.
+- Choose tools last.
+
+---
+
+## Best Use Cases
+
+- GTM Engineering
+- RevOps
+- Business Operations
+- AI workflow design
+- Process improvement
+- Product strategy
+- Case study development
+- Systems thinking
+
+---
+
+## Related Projects
+
+- Cognitive Fitness OS
+- AI Workflow Library
+- GTM Operating Systems
+- Case Study OS
+
+---
+
+## Status
+
+🚧 **Version 1**
+
+This framework continues to evolve as new workflow patterns and decision systems emerge.
