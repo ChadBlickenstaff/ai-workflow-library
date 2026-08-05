@@ -2,7 +2,7 @@
 
 A collection of reusable AI workflows, prompts, and knowledge management systems for GTM execution.
 
-Rather than treating AI as a collection of isolated prompts, this repository documents repeatable workflows that combine AI with structured thinking, operational systems, and human judgment.
+These workflows document practical approaches to integrating AI into research, planning, writing, and operational decision-making. They emphasize repeatable systems that combine AI with structured thinking and human judgment rather than isolated prompts or one-off automations.
 
 ---
 
@@ -12,7 +12,7 @@ Modern AI creates the most value when it improves how work is performed—not si
 
 This repository captures the workflows I use to research, write, analyze, document, and operationalize GTM systems. Each workflow is designed to reduce repetitive work while keeping strategic decisions with the human operator.
 
-Every workflow in this repository has been developed through real portfolio projects, interview preparation, GTM research, or day-to-day knowledge work.
+Every workflow in this repository has either been implemented, tested, or directly informed by real portfolio projects, interview preparation, GTM research, or day-to-day knowledge work.
 
 ---
 
@@ -43,7 +43,7 @@ Every workflow in this repository follows the same philosophy:
 
 ## How to Use This Repository
 
-Each workflow can be used independently, but together they represent a modular system for AI-enabled knowledge work. Every workflow follows a consistent structure so ideas are easier to compare, extend, and improve over time.
+Each workflow can be used independently, but together they represent a modular system for AI-enabled knowledge work. Every workflow follows the same structure so ideas are easier to compare, extend, and improve over time.
 
 ---
 
@@ -105,15 +105,23 @@ Planned additions include:
 
 ## Related Projects
 
-These workflows were developed and refined through real GTM projects and day-to-day knowledge work.
+### Repositories
 
-🌐 Portfolio Website
+⭐ **AI-Native Account Prioritization Engine**  
+https://github.com/ChadBlickenstaff/ai-native-account-prioritization-engine
 
-⭐ AI-Native Account Prioritization Engine
+⭐ **GTM Operating Systems**  
+https://github.com/ChadBlickenstaff/gtm-operating-systems
 
-⭐ GTM Operating Systems
+---
 
-💼 LinkedIn
+### Case Studies
+
+🌐 **Building an AI-Native Account Prioritization Engine**  
+https://chadblickenstaff.io/building-an-ai-native-account-prioritization-engine
+
+🌐 **What I'd Fix at ZoomInfo's RevOps**  
+https://chadblickenstaff.io/what-id-fix-at-zoominfos-revops
 
 ---
 
