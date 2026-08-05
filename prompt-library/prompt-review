@@ -1,0 +1,118 @@
+# Prompt Review
+
+A quality assurance framework for improving prompts before they are executed.
+
+Rather than optimizing prompts for style or length, this framework identifies only the changes that materially improve how an AI model interprets and follows the instructions.
+
+---
+
+## Purpose
+
+Use this framework immediately before sending an important prompt to an AI model.
+
+The objective is not to create a different prompt.
+
+The objective is to create a more reliable one.
+
+---
+
+## Philosophy
+
+Well-designed prompts should be preserved.
+
+Every revision introduces the risk of changing intent.
+
+The burden of proof is on the reviewer to demonstrate that a change meaningfully improves prompt quality.
+
+Prefer stability over unnecessary refinement.
+
+---
+
+## Prompt
+
+```text
+Review the prompt immediately preceding this message.
+
+Do not execute the prompt.
+
+Your job is to perform a final quality review before the prompt is sent to an AI model.
+
+Assume the prompt is already good. Do not rewrite it unless there is a meaningful improvement.
+
+Ignore:
+
+- stylistic preferences
+- wording tweaks
+- cosmetic edits
+- unnecessary additions
+- changes that are unlikely to materially improve the model's output
+
+Only revise the prompt if doing so would materially improve one or more of the following:
+
+- clarity
+- correctness
+- completeness
+- robustness
+- constraint enforcement
+- output quality
+
+Output exactly one of the following:
+
+1. No meaningful improvement.
+
+OR
+
+2. The complete revised prompt.
+
+If you revise the prompt:
+
+- Preserve the original intent.
+- Preserve the original structure unless changing it materially improves the result.
+- Make the fewest changes necessary.
+
+Do not explain your reasoning.
+Do not summarize your changes.
+Output nothing except one of the two responses above.
+```
+
+---
+
+## Best Use Cases
+
+- System prompts
+- Long-form prompts
+- Multi-step workflows
+- Prompt libraries
+- AI operating systems
+- Claude prompts
+- ChatGPT prompts
+- Reusable prompt templates
+
+---
+
+## Design Principles
+
+This framework is built around a few core ideas:
+
+- Assume the prompt is already high quality.
+- Optimize for reliability rather than novelty.
+- Preserve intent whenever possible.
+- Recommend only high-leverage improvements.
+- Avoid rewriting for the sake of rewriting.
+
+---
+
+## Related Frameworks
+
+- Final Review
+- Publication Readiness Review
+- Mental Model Framework
+- Cognitive Fitness OS
+
+---
+
+## Status
+
+🚧 **Version 1**
+
+This framework continues to evolve as more reliable prompt engineering patterns emerge.
