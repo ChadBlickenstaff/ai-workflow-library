@@ -1,4 +1,4 @@
-# LLM Operating System
+# Cognitive Fitness OS
 
 A decision framework for integrating AI into knowledge work while preserving human judgment.
 
