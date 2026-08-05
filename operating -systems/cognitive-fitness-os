@@ -2,7 +2,7 @@
 
 A decision framework for improving thinking, learning, and decision-making through intentional collaboration between human cognition and AI.
 
-Rather than treating AI as a collection of isolated tools, this operating system defines how human cognition, external knowledge, AI reasoning, and workflow automation interact to improve understanding, execution, and long-term cognitive leverage.
+Rather than treating AI as a collection of isolated tools, this operating system assigns clear responsibilities across research, thinking, execution, production, and learning. The goal is not to generate more content—it is to improve thinking, execution, and long-term cognitive leverage.
 
 ---
 
@@ -10,12 +10,13 @@ Rather than treating AI as a collection of isolated tools, this operating system
 
 AI should amplify thinking, not replace it.
 
-- Humans define the problem.
+- Humans define the problem and make the final judgment.
+- The Cognitive Fitness OS determines how work should be performed.
 - Perplexity researches the external world.
 - ChatGPT manages thinking.
-- Espanso operationalizes repeatable workflows.
+- The Prompt Library captures reusable workflows.
+- Espanso operationalizes those workflows.
 - Claude produces polished deliverables.
-- Humans make the final judgment.
 
 ---
 
@@ -25,57 +26,42 @@ AI should amplify thinking, not replace it.
 Problem
    │
    ▼
-Pen & Paper
-Clarify the problem and develop an initial point of view.
+Human
+Clarify the problem and define the objective.
    │
    ▼
-Perplexity
-Research what the world currently knows.
+Cognitive Fitness OS
+Select the appropriate workflow.
+   │
+   ├── Research → Perplexity
+   ├── Thinking → ChatGPT
+   ├── Production → Claude
+   └── Reusable Workflow → Prompt Library + Espanso
    │
    ▼
-Pen & Paper
-Develop an independent perspective.
-   │
-   ▼
-ChatGPT
-Think, synthesize, critique, and design the workflow.
-   │
-   ▼
-Espanso
-Execute standardized prompt architectures and reusable workflows.
-   │
-   ▼
-Claude
-Produce exceptional long-form deliverables.
-   │
-   ▼
-ChatGPT
-Review, critique, extract durable learning, and identify improvements.
-   │
-   ▼
-Pen & Paper
-Compress, internalize, and decide.
+Human
+Review, internalize, and make the final decision.
 ```
 
 ---
 
 ## Responsibilities
 
-### Pen & Paper
+### Human
 
 **Purpose**
 
-Develop understanding.
+Own understanding and judgment.
 
-**Best for**
+**Responsibilities**
 
-- ambiguity
-- first principles
-- systems thinking
-- defining the problem
-- memory
-- intuition
-- final judgment
+- define the problem
+- resolve ambiguity
+- form independent judgment
+- make final decisions
+- internalize learning
+
+Humans own direction, truth, and judgment.
 
 ---
 
@@ -93,6 +79,10 @@ Research operating system.
 - external evidence
 - citations
 - validating assumptions
+
+Perplexity answers:
+
+> *What does the world currently know?*
 
 ---
 
@@ -115,7 +105,27 @@ Thinking operating system.
 - extracting durable learning
 - identifying contradictions
 
-ChatGPT manages the workflow rather than simply generating content.
+ChatGPT answers:
+
+> *What do I think, and what should I do next?*
+
+---
+
+### Prompt Library
+
+**Purpose**
+
+Knowledge operating system.
+
+**Best for**
+
+- reusable prompt architectures
+- standardized workflows
+- organizational memory
+- repeatable reasoning patterns
+- documented best practices
+
+The Prompt Library captures proven workflows so they can be reused instead of recreated.
 
 ---
 
@@ -127,13 +137,13 @@ Execution operating system.
 
 **Best for**
 
-- reusable prompt architectures
 - workflow automation
-- standardized execution
-- reducing repetitive work
+- prompt execution
+- text expansion
 - operational consistency
+- reducing repetitive work
 
-Espanso transforms proven workflows into repeatable systems.
+Espanso operationalizes the Prompt Library by executing reusable workflows with a single trigger.
 
 ---
 
@@ -152,20 +162,21 @@ Production operating system.
 - polished deliverables
 - structured reports
 
-Claude turns well-defined thinking into exceptional output.
+Claude answers:
+
+> *How do I turn this thinking into an exceptional deliverable?*
 
 ---
 
 ## Design Principles
 
-This operating system optimizes for better thinking before better output.
-
 Every workflow follows the same philosophy:
 
 - AI should amplify thinking, not replace it.
-- Separate thinking from production.
+- Separate research, thinking, execution, and production.
 - Automate execution, not judgment.
 - Build workflows instead of prompts.
+- Capture reusable knowledge.
 - Preserve human review before publishing.
 - Capture durable learning after every significant output.
 
@@ -179,6 +190,8 @@ cognitive-fitness-os/
 ├── README.md
 ├── framework.svg
 ├── decision-matrix.md
+├── prompt-library/
+├── espanso/
 └── examples/
 ```
 
@@ -188,12 +201,12 @@ cognitive-fitness-os/
 
 Planned additions include:
 
-- Cognitive workflow visual
+- Visual operating model
 - Decision matrix for tool selection
-- End-to-end thinking examples
-- Learning and compression patterns
+- Example end-to-end workflows
 - AI evaluation framework
-- Multi-agent collaboration patterns
+- Prompt routing heuristics
+- Multi-agent workflow patterns
 
 ---
 

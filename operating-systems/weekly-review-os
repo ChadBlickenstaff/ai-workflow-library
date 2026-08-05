@@ -1,0 +1,174 @@
+# Weekly Review OS
+
+A weekly reflection system for improving execution by identifying high-leverage changes to the operating system.
+
+The purpose is not to summarize the week. It is to convert observed behavior into better systems, clearer constraints, and more sustainable performance.
+
+---
+
+## Inputs
+
+Provide:
+
+- Deep Life Tracker entries
+- Execution log, when relevant
+- Context from the week, including:
+  - travel
+  - interviews
+  - projects
+  - health
+  - major changes in workload or priorities
+
+---
+
+## Objective
+
+Analyze the week as an operator would.
+
+Focus on improving:
+
+- deep work
+- energy management
+- execution quality
+- friction reduction
+- sustainable performance
+
+Identify system-level patterns rather than producing a chronological recap.
+
+---
+
+## Review Questions
+
+### 1. What is the highest-leverage insight?
+
+Identify the single principle that explains the most about the week.
+
+Prioritize:
+
+- recurring behavioral patterns
+- bottlenecks
+- constraints
+- hidden dependencies
+- phase changes
+- repeated sources of friction
+
+Focus on systems rather than isolated events.
+
+### 2. What should change next week?
+
+Recommend one specific adjustment.
+
+Use no more than two changes.
+
+Prioritize leverage over optimization.
+
+### 3. What risk is close to breaking?
+
+Identify one emerging risk that may not yet be obvious.
+
+Examples include:
+
+- unsustainable workload
+- accumulated fatigue
+- preparation replacing execution
+- excessive iteration
+- scope expansion
+- AI-generated momentum without understanding
+
+### 4. What can be implemented immediately?
+
+Recommend one simple action that can begin without additional planning.
+
+---
+
+## Phase Recognition
+
+When appropriate, identify whether the operating phase has changed.
+
+Examples:
+
+- research → execution
+- design → build
+- builder → operator
+- sprint → endurance
+- expansion → compression
+- performance → recovery
+- preparation → interview execution
+
+Recommendations should reflect the current phase rather than applying the same productivity system every week.
+
+---
+
+## Review Principles
+
+- Improve the operating system, not merely the schedule.
+- Look for causes, not just symptoms.
+- Prefer one high-leverage change over many minor adjustments.
+- Treat constraints as design inputs.
+- Protect sustainable performance.
+- Do not confuse activity with progress.
+- Preserve what worked before changing it.
+
+---
+
+## Avoid
+
+- generic productivity advice
+- over-analysis
+- long lists of observations
+- summarizing the week
+- unnecessary emotional coaching
+- schedule optimization without addressing the underlying system
+- recommendations that create more complexity than they remove
+
+Discuss emotional factors only when they materially affect execution, judgment, energy, or sustainability.
+
+---
+
+## Output Format
+
+## 1. Highest-Leverage Insight
+
+One system-level insight.
+
+## 2. One Adjustment for Next Week
+
+One concrete behavioral or operating-system change.
+
+## Risk You’re Close to Breaking
+
+One emerging risk.
+
+## One Simple Action
+
+One action that can be implemented immediately.
+
+## Slow-Down Checkpoint
+
+Include only when the pace of AI-assisted work or decision-making is creating a meaningful risk of shallow understanding.
+
+Encourage a pause to:
+
+- explain the reasoning independently
+- verify assumptions
+- internalize the system
+- review the output before moving it into Claude
+- avoid starting another iteration prematurely
+
+---
+
+## Related Operating Systems
+
+- Operator OS
+- Career OS
+- Cognitive Fitness OS
+- Execution OS
+- Case Study OS
+
+---
+
+## Status
+
+🚧 **Version 1**
+
+Each week should function as another iteration of the operating system, producing fewer but higher-leverage changes over time.

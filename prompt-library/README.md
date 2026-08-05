@@ -1,105 +1,93 @@
-# AI Workflow Library
+# Prompt Library
 
-A collection of reusable AI workflows, prompts, and knowledge management systems for GTM execution.
+A collection of reusable prompts that capture proven thinking patterns rather than one-off instructions.
 
-These workflows document practical approaches to integrating AI into research, planning, writing, and operational decision-making. They emphasize repeatable systems that combine AI with structured thinking and human judgment rather than isolated prompts or one-off automations.
+These prompts document repeatable approaches to research, analysis, writing, decision-making, and systems design. They are designed to improve the quality and consistency of knowledge work by standardizing reasoning—not replacing it.
 
 ---
 
 ## Overview
 
-Modern AI creates the most value when it improves how work is performed—not simply by generating better text.
+A good prompt is not simply a better instruction.
 
-This repository captures the workflows I use to research, write, analyze, document, and operationalize GTM systems. Each workflow is designed to reduce repetitive work while keeping strategic decisions with the human operator.
+It is a reusable workflow that encodes judgment, constraints, and a repeatable thinking process.
 
-Every workflow in this repository has either been implemented, tested, or directly informed by real portfolio projects, interview preparation, GTM research, or day-to-day knowledge work.
+This library captures prompts refined through real portfolio projects, interview preparation, GTM research, and day-to-day operational work. Each prompt exists because it consistently improves thinking, decision quality, or execution.
+
+As prompts mature, they often evolve into operating systems, reusable workflows, or templates.
 
 ---
 
-## Workflow Library
+## Prompt Categories
 
-| Workflow | Purpose |
+| Category | Purpose |
 |----------|---------|
-| LLM Operating System | Route work to the right AI model |
-| Prompt Library | Reusable prompts for GTM and knowledge work |
-| Espanso Automation | Text expansion and workflow acceleration |
-| Templates | Repeatable documents and planning frameworks |
-| AI Workflows | End-to-end examples combining multiple tools |
+| Operating Systems | Establish durable context and decision frameworks |
+| Analysis | Evaluate ideas, systems, and artifacts |
+| Writing | Produce clear, evidence-based communication |
+| Review | Improve work before publishing |
+| Planning | Structure projects and execution |
+| Reflection | Capture durable learning and improve future decisions |
 
 ---
 
 ## Design Principles
 
-Every workflow in this repository follows the same philosophy:
+Every prompt in this repository follows the same philosophy:
 
-- AI should accelerate thinking, not replace it.
-- Workflows are more valuable than individual prompts.
-- Human judgment remains the final decision-maker.
-- Optimize for repeatability and documentation.
-- Build reusable systems instead of one-off solutions.
-- Improve the workflow before increasing automation.
+- Thinking before production.
+- Judgment before automation.
+- Workflows over isolated prompts.
+- Reusable systems over one-off instructions.
+- Constraints improve output quality.
+- Human understanding remains the final objective.
 
 ---
 
 ## How to Use This Repository
 
-Each workflow can be used independently, but together they represent a modular system for AI-enabled knowledge work. Every workflow follows the same structure so ideas are easier to compare, extend, and improve over time.
+Prompts are organized by the type of work they support rather than by AI model.
+
+Most prompts are designed to be used alongside the **Cognitive Fitness OS**, which provides the decision framework, while these prompts execute specific workflows within that system.
+
+As workflows become more durable, they graduate into operating systems, templates, or documented workflows elsewhere in the AI Workflow Library.
 
 ---
 
 ## Repository Structure
 
-Every workflow in this repository follows a consistent structure:
-
-- Purpose
-- Problem
-- Workflow
-- Inputs
-- Outputs
-- Examples
-- Lessons Learned
-- Future Improvements
-
 ```text
-ai-workflow-library/
+prompt-library/
 │
 ├── README.md
 │
-├── llm-operating-system/
-│   ├── README.md
-│   └── framework.svg
+├── operating-systems/
+│   ├── operator-os.md
+│   ├── career-os.md
+│   ├── cognitive-fitness-os.md
+│   ├── execution-os.md
+│   ├── weekly-review-os.md
+│   └── case-study-os.md
 │
-├── prompt-library/
-│   ├── README.md
-│   └── prompts/
-│
-├── espanso/
-│   ├── README.md
-│   └── yaml/
-│
-├── templates/
-│   ├── README.md
-│   └── templates/
-│
-└── workflows/
-    ├── README.md
-    └── examples/
+├── analysis/
+├── writing/
+├── review/
+├── planning/
+└── reflection/
 ```
 
 ---
 
-## Future Workflows
+## Future Prompt Categories
 
 Planned additions include:
 
-- Claude workflows
-- ChatGPT workflows
-- Research pipelines
-- AI evaluation workflows
-- Prompt testing frameworks
-- API automations
-- MCP integrations
-- n8n workflows
+- Interview preparation
+- Networking
+- Research synthesis
+- AI evaluation
+- Workflow generation
+- Decision frameworks
 
 ---
 
@@ -107,11 +95,14 @@ Planned additions include:
 
 ### Repositories
 
-⭐ **AI-Native Account Prioritization Engine**  
-https://github.com/ChadBlickenstaff/ai-native-account-prioritization-engine
+⭐ **AI Workflow Library**  
+https://github.com/ChadBlickenstaff/ai-workflow-library
 
 ⭐ **GTM Operating Systems**  
 https://github.com/ChadBlickenstaff/gtm-operating-systems
+
+⭐ **AI-Native Account Prioritization Engine**  
+https://github.com/ChadBlickenstaff/ai-native-account-prioritization-engine
 
 ---
 
@@ -129,4 +120,5 @@ https://chadblickenstaff.io/what-id-fix-at-zoominfos-revops
 
 🚧 **Version 1**
 
-This repository will continue to grow as new AI workflows, automations, and reusable systems are developed and documented.
+This library will continue to grow as proven prompts evolve into durable operating systems, reusable workflows, and documented methodologies.
+```
