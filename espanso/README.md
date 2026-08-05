@@ -1,8 +1,8 @@
 # Espanso Automation
 
-A reusable automation layer for operationalizing AI workflows through text expansion, prompt architecture, and workflow standardization.
+A reusable automation layer for operationalizing AI workflows through text expansion, reasoning frameworks, and workflow standardization.
 
-Rather than treating AI as a collection of manually written prompts, this repository documents how Espanso serves as the execution layer of my LLM Operating System—routing repeatable work into structured AI workflows with a single trigger.
+Rather than treating AI as a collection of manually written prompts, this repository documents how Espanso serves as the automation layer of the Cognitive Fitness OS—transforming proven reasoning frameworks into repeatable workflows with a single trigger.
 
 ---
 
@@ -10,41 +10,44 @@ Rather than treating AI as a collection of manually written prompts, this reposi
 
 Modern AI workflows break down when every prompt is written from scratch.
 
-Espanso solves this by turning proven workflows into reusable building blocks. Instead of remembering prompts, formatting, or process steps, I invoke standardized workflows using short text triggers.
+Espanso solves this by transforming proven reasoning frameworks into reusable automations. Instead of remembering prompts, formatting, or workflow steps, I invoke standardized processes using short text triggers.
 
 The result is faster execution, more consistent outputs, and lower cognitive overhead while preserving human judgment.
 
-Every automation in this repository has been developed through real portfolio projects, GTM research, interview preparation, knowledge management, or day-to-day operational work.
+Every automation in this repository has been developed through real portfolio projects, GTM systems work, interview preparation, knowledge management, and day-to-day operational workflows.
 
 ---
 
-## How Espanso Fits into the LLM Operating System
+## How Espanso Fits into the Cognitive Fitness OS
 
 ```text
-Idea
+Problem
    │
    ▼
-LLM Operating System
+Cognitive Fitness OS
+Select the reasoning workflow.
    │
    ▼
 Espanso Trigger
+Execute the appropriate framework.
    │
    ▼
 Prompt Template
    │
    ▼
-GPT / Claude
+AI Model
+(ChatGPT / Claude)
    │
    ▼
-Structured Output
+Human Review
    │
    ▼
-Knowledge Base / Portfolio
+Portfolio / Knowledge Base
 ```
 
-Espanso is the execution layer that operationalizes the LLM Operating System.
+Espanso is the automation layer that operationalizes the Cognitive Fitness OS.
 
-The operating system determines *how* work should be performed; Espanso executes that workflow consistently by transforming proven prompt architectures into reusable automations.
+The operating system determines *how* work should be performed; Espanso executes those workflows consistently by transforming proven reasoning frameworks into reusable automations.
 
 ---
 
@@ -52,14 +55,11 @@ The operating system determines *how* work should be performed; Espanso executes
 
 | Category | Purpose |
 |----------|---------|
-| LLM Routing | Route work to the appropriate AI model |
-| Prompt Review | Critique and strengthen AI outputs |
-| Editing | Improve clarity while preserving intent |
-| Publishing | Standardize content before publishing |
-| Career OS | Automate recurring career workflows |
-| GTM OS | Reusable GTM systems and operating models |
-| Recruiting | Standardize networking and outreach workflows |
-| Knowledge Work | Capture, organize, and refine thinking |
+| Reasoning Frameworks | Execute standardized thinking workflows |
+| Review | Critique prompts, writing, and deliverables |
+| Knowledge Management | Capture and refine durable learning |
+| Communication | Standardize outreach and professional communication |
+| Career Workflows | Support recurring career development tasks |
 
 ---
 
@@ -68,9 +68,9 @@ The operating system determines *how* work should be performed; Espanso executes
 Every automation follows the same philosophy:
 
 - Automate execution, not judgment.
-- Standardize workflows instead of prompts.
-- Reduce cognitive overhead.
-- Build reusable systems rather than one-off shortcuts.
+- Operationalize reasoning, not prompts.
+- Standardize workflows instead of individual instructions.
+- Reduce cognitive overhead without reducing understanding.
 - Preserve human review before publishing.
 - Improve the workflow before increasing automation.
 
@@ -78,35 +78,15 @@ Every automation follows the same philosophy:
 
 ## Repository Structure
 
-Each automation follows a consistent structure:
-
-- Trigger
-- Purpose
-- Workflow
-- Inputs
-- Outputs
-- Examples
-- Future Improvements
-
 ```text
 espanso/
 │
 ├── README.md
-│
 ├── base.yml
-├── calendar.yml
-├── careeros.yml
-├── claudecareerupdate.yml
-├── comment.yml
-├── edit.yml
-├── gpt.yml
-├── GTMOS.yml
-├── linkedin connect.yml
-├── mental model.yml
-├── prompt review.yml
-├── publish.yml
-├── recruiter.yml
-└── review.yml
+├── frameworks/
+├── review/
+├── communication/
+└── career/
 ```
 
 ---
@@ -116,54 +96,7 @@ espanso/
 A typical workflow follows the same pattern:
 
 1. Invoke an Espanso trigger.
-2. Insert a structured prompt template.
+2. Insert a standardized reasoning framework.
 3. Route work to the appropriate AI model.
 4. Review and refine the output.
-5. Integrate the result into a broader operating system or publish the final deliverable.
-
-The automation eliminates repetitive execution while keeping strategic decisions with the human operator.
-
----
-
-## Future Improvements
-
-Planned additions include:
-
-- Dynamic variables
-- Form-based prompt generation
-- Multi-step workflow chaining
-- API integrations
-- MCP-enabled workflows
-- Cross-platform automation
-- AI agent orchestration
-
----
-
-## Related Projects
-
-These automations were developed through real GTM projects and AI-enabled knowledge work.
-
-🌐 Portfolio Website: https://chadblickenstaff.io
-
-🌐 Building an AI-Native Account Prioritization Engine:
-https://chadblickenstaff.io/building-an-ai-native-account-prioritization-engine
-
-🌐 What I'd Fix at ZoomInfo's RevOps:
-https://chadblickenstaff.io/what-id-fix-at-zoominfos-revops
-
-⭐ AI Workflow Library:
-https://github.com/ChadBlickenstaff/ai-workflow-library
-
-⭐ GTM Operating Systems:
-https://github.com/ChadBlickenstaff/gtm-operating-systems
-
-⭐ AI-Native Account Prioritization Engine:
-https://github.com/ChadBlickenstaff/ai-native-account-prioritization-engine
-
----
-
-## Status
-
-🚧 **Version 1**
-
-This repository will continue to grow as new automations, prompt architectures, and AI workflow patterns are developed, tested, and documented.
+5. Integrate the result into a
