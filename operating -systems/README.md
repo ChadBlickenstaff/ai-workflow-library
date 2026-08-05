@@ -1,8 +1,8 @@
 # Cognitive Fitness OS
 
-A decision framework for integrating AI into knowledge work while preserving human judgment.
+A decision framework for improving thinking, learning, and decision-making through intentional collaboration between human cognition and AI.
 
-Rather than treating AI as a single tool, this operating system assigns distinct responsibilities to each component of the workflow. The goal is not to generate more content—it is to improve thinking, execution, and learning.
+Rather than treating AI as a collection of isolated tools, this operating system defines how human cognition, external knowledge, AI reasoning, and workflow automation interact to improve understanding, execution, and long-term cognitive leverage.
 
 ---
 
@@ -158,6 +158,8 @@ Claude turns well-defined thinking into exceptional output.
 
 ## Design Principles
 
+This operating system optimizes for better thinking before better output.
+
 Every workflow follows the same philosophy:
 
 - AI should amplify thinking, not replace it.
@@ -172,7 +174,7 @@ Every workflow follows the same philosophy:
 ## Repository Structure
 
 ```text
-llm-operating-system/
+cognitive-fitness-os/
 │
 ├── README.md
 ├── framework.svg
@@ -186,12 +188,12 @@ llm-operating-system/
 
 Planned additions include:
 
-- Visual operating model
-- Decision matrix for model selection
-- Example end-to-end workflows
+- Cognitive workflow visual
+- Decision matrix for tool selection
+- End-to-end thinking examples
+- Learning and compression patterns
 - AI evaluation framework
-- Prompt routing heuristics
-- Multi-agent workflow patterns
+- Multi-agent collaboration patterns
 
 ---
 
@@ -217,103 +219,3 @@ https://github.com/ChadBlickenstaff/ai-native-account-prioritization-engine
 🚧 **Version 1**
 
 This operating system continues to evolve as new AI capabilities, workflow patterns, and knowledge management practices emerge.
-Every workflow in this repository follows the same philosophy:
-
-- AI should accelerate thinking, not replace it.
-- Workflows are more valuable than individual prompts.
-- Human judgment remains the final decision-maker.
-- Optimize for repeatability and documentation.
-- Build reusable systems instead of one-off solutions.
-- Improve the workflow before increasing automation.
-
----
-
-## How to Use This Repository
-
-Each workflow can be used independently, but together they represent a modular system for AI-enabled knowledge work. Every workflow follows the same structure so ideas are easier to compare, extend, and improve over time.
-
----
-
-## Repository Structure
-
-Every workflow in this repository follows a consistent structure:
-
-- Purpose
-- Problem
-- Workflow
-- Inputs
-- Outputs
-- Examples
-- Lessons Learned
-- Future Improvements
-
-```text
-ai-workflow-library/
-│
-├── README.md
-│
-├── llm-operating-system/
-│   ├── README.md
-│   └── framework.svg
-│
-├── prompt-library/
-│   ├── README.md
-│   └── prompts/
-│
-├── espanso/
-│   ├── README.md
-│   └── yaml/
-│
-├── templates/
-│   ├── README.md
-│   └── templates/
-│
-└── workflows/
-    ├── README.md
-    └── examples/
-```
-
----
-
-## Future Workflows
-
-Planned additions include:
-
-- Claude workflows
-- ChatGPT workflows
-- Research pipelines
-- AI evaluation workflows
-- Prompt testing frameworks
-- API automations
-- MCP integrations
-- n8n workflows
-
----
-
-## Related Projects
-
-### Repositories
-
-⭐ **AI-Native Account Prioritization Engine**  
-https://github.com/ChadBlickenstaff/ai-native-account-prioritization-engine
-
-⭐ **GTM Operating Systems**  
-https://github.com/ChadBlickenstaff/gtm-operating-systems
-
----
-
-### Case Studies
-
-🌐 **Building an AI-Native Account Prioritization Engine**  
-https://chadblickenstaff.io/building-an-ai-native-account-prioritization-engine
-
-🌐 **What I'd Fix at ZoomInfo's RevOps**  
-https://chadblickenstaff.io/what-id-fix-at-zoominfos-revops
-
----
-
-## Status
-
-🚧 **Version 1**
-
-This repository will continue to grow as new AI workflows, automations, and reusable systems are developed and documented.
