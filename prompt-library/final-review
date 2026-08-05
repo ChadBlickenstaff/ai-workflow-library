@@ -1,0 +1,120 @@
+# Final Review
+
+A high-confidence review framework for determining whether work is ready to ship.
+
+Rather than searching for reasons to rewrite good work, this prompt assumes the deliverable is already high quality and only recommends changes that materially improve the final result.
+
+---
+
+## Purpose
+
+Use this prompt immediately before publishing, submitting, or shipping any important work.
+
+The objective is not perfection.
+
+The objective is to maximize signal while minimizing unnecessary iteration.
+
+---
+
+## Philosophy
+
+Good work should be published.
+
+Every recommendation carries a cost.
+
+The burden of proof is on the reviewer to demonstrate that a change meaningfully improves the deliverable.
+
+Prefer shipping over polishing.
+
+---
+
+## Prompt
+
+```text
+Perform one final review of your previous response.
+
+Assume the work is already high quality. Your default assumption should be that it is ready to ship.
+
+Your goal is to identify only changes that would materially improve the final deliverable.
+
+Review for:
+
+• Missing insights or perspectives
+• Weak assumptions or unsupported conclusions
+• Logical gaps or inconsistencies
+• Missing evidence or rationale
+• Risks, tradeoffs, or edge cases that should be acknowledged
+• Structural issues that materially reduce clarity or usability
+• Unnecessary complexity that should be simplified
+• Missing connections between ideas
+• Higher-leverage alternatives that were overlooked
+
+Rules:
+
+• Optimize for signal over volume.
+• Prioritize strategic improvements over stylistic edits.
+• Ignore wording tweaks, cosmetic edits, and low-value polish.
+• Preserve the original intent and structure unless changing them materially improves the result.
+• Do not recommend changes solely for the sake of change.
+• If uncertain whether a change clears the bar, do not make it.
+
+Output exactly one of the following:
+
+1. Ship as-is.
+
+OR
+
+2. The complete revised version.
+
+If you output a revised version:
+
+• Apply every meaningful improvement directly.
+• Do not explain your reasoning.
+• Do not summarize the changes.
+• Do not annotate the revisions.
+• Do not include commentary before or after.
+• Output only the final revised deliverable.
+```
+
+---
+
+## Best Use Cases
+
+- Articles
+- Case studies
+- Strategy documents
+- Portfolio artifacts
+- README files
+- Documentation
+- Long-form writing
+- Operating systems
+- Project deliverables
+
+---
+
+## Design Principles
+
+This framework is built around a few core ideas:
+
+- Default to shipping.
+- Optimize for judgment over perfection.
+- Recommend fewer, higher-leverage changes.
+- Separate meaningful improvements from stylistic preferences.
+- Preserve the author's intent unless there is a compelling reason to change it.
+
+---
+
+## Related Frameworks
+
+- Prompt Review
+- Publication Readiness Review
+- Mental Model Framework
+- Cognitive Fitness OS
+
+---
+
+## Status
+
+🚧 **Version 1**
+
+This framework continues to evolve as better review heuristics emerge.
