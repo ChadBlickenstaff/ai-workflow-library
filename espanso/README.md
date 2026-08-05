@@ -1,127 +1,164 @@
-# AI Workflow Library
+# Espanso Automation
 
-A collection of reusable AI workflows, prompts, and knowledge management systems for GTM execution.
+A reusable automation layer for operationalizing AI workflows through text expansion, prompt architecture, and workflow standardization.
 
-These workflows document practical approaches to integrating AI into research, planning, writing, and operational decision-making. They emphasize repeatable systems that combine AI with structured thinking and human judgment rather than isolated prompts or one-off automations.
+Rather than treating AI as a collection of manually written prompts, this repository documents how Espanso serves as the execution layer of my LLM Operating System—routing repeatable work into structured AI workflows with a single trigger.
 
 ---
 
 ## Overview
 
-Modern AI creates the most value when it improves how work is performed—not simply by generating better text.
+Modern AI workflows break down when every prompt is written from scratch.
 
-This repository captures the workflows I use to research, write, analyze, document, and operationalize GTM systems. Each workflow is designed to reduce repetitive work while keeping strategic decisions with the human operator.
+Espanso solves this by turning proven workflows into reusable building blocks. Instead of remembering prompts, formatting, or process steps, I invoke standardized workflows using short text triggers.
 
-Every workflow in this repository has either been implemented, tested, or directly informed by real portfolio projects, interview preparation, GTM research, or day-to-day knowledge work.
+The result is faster execution, more consistent outputs, and lower cognitive overhead while preserving human judgment.
+
+Every automation in this repository has been developed through real portfolio projects, GTM research, interview preparation, knowledge management, or day-to-day operational work.
 
 ---
 
-## Workflow Library
+## How Espanso Fits into the LLM Operating System
 
-| Workflow | Purpose |
+```text
+Idea
+   │
+   ▼
+LLM Operating System
+   │
+   ▼
+Espanso Trigger
+   │
+   ▼
+Prompt Template
+   │
+   ▼
+GPT / Claude
+   │
+   ▼
+Structured Output
+   │
+   ▼
+Knowledge Base / Portfolio
+```
+
+Espanso is the execution layer that operationalizes the LLM Operating System.
+
+The operating system determines *how* work should be performed; Espanso executes that workflow consistently by transforming proven prompt architectures into reusable automations.
+
+---
+
+## Workflow Categories
+
+| Category | Purpose |
 |----------|---------|
-| LLM Operating System | Route work to the right AI model |
-| Prompt Library | Reusable prompts for GTM and knowledge work |
-| Espanso Automation | Text expansion and workflow acceleration |
-| Templates | Repeatable documents and planning frameworks |
-| AI Workflows | End-to-end examples combining multiple tools |
+| LLM Routing | Route work to the appropriate AI model |
+| Prompt Review | Critique and strengthen AI outputs |
+| Editing | Improve clarity while preserving intent |
+| Publishing | Standardize content before publishing |
+| Career OS | Automate recurring career workflows |
+| GTM OS | Reusable GTM systems and operating models |
+| Recruiting | Standardize networking and outreach workflows |
+| Knowledge Work | Capture, organize, and refine thinking |
 
 ---
 
 ## Design Principles
 
-Every workflow in this repository follows the same philosophy:
+Every automation follows the same philosophy:
 
-- AI should accelerate thinking, not replace it.
-- Workflows are more valuable than individual prompts.
-- Human judgment remains the final decision-maker.
-- Optimize for repeatability and documentation.
-- Build reusable systems instead of one-off solutions.
+- Automate execution, not judgment.
+- Standardize workflows instead of prompts.
+- Reduce cognitive overhead.
+- Build reusable systems rather than one-off shortcuts.
+- Preserve human review before publishing.
 - Improve the workflow before increasing automation.
-
----
-
-## How to Use This Repository
-
-Each workflow can be used independently, but together they represent a modular system for AI-enabled knowledge work. Every workflow follows the same structure so ideas are easier to compare, extend, and improve over time.
 
 ---
 
 ## Repository Structure
 
-Every workflow in this repository follows a consistent structure:
+Each automation follows a consistent structure:
 
+- Trigger
 - Purpose
-- Problem
 - Workflow
 - Inputs
 - Outputs
 - Examples
-- Lessons Learned
 - Future Improvements
 
 ```text
-ai-workflow-library/
+espanso/
 │
 ├── README.md
 │
-├── llm-operating-system/
-│   ├── README.md
-│   └── framework.svg
-│
-├── prompt-library/
-│   ├── README.md
-│   └── prompts/
-│
-├── espanso/
-│   ├── README.md
-│   └── yaml/
-│
-├── templates/
-│   ├── README.md
-│   └── templates/
-│
-└── workflows/
-    ├── README.md
-    └── examples/
+├── base.yml
+├── calendar.yml
+├── careeros.yml
+├── claudecareerupdate.yml
+├── comment.yml
+├── edit.yml
+├── gpt.yml
+├── GTMOS.yml
+├── linkedin connect.yml
+├── mental model.yml
+├── prompt review.yml
+├── publish.yml
+├── recruiter.yml
+└── review.yml
 ```
 
 ---
 
-## Future Workflows
+## Example Workflow
+
+A typical workflow follows the same pattern:
+
+1. Invoke an Espanso trigger.
+2. Insert a structured prompt template.
+3. Route work to the appropriate AI model.
+4. Review and refine the output.
+5. Integrate the result into a broader operating system or publish the final deliverable.
+
+The automation eliminates repetitive execution while keeping strategic decisions with the human operator.
+
+---
+
+## Future Improvements
 
 Planned additions include:
 
-- Claude workflows
-- ChatGPT workflows
-- Research pipelines
-- AI evaluation workflows
-- Prompt testing frameworks
-- API automations
-- MCP integrations
-- n8n workflows
+- Dynamic variables
+- Form-based prompt generation
+- Multi-step workflow chaining
+- API integrations
+- MCP-enabled workflows
+- Cross-platform automation
+- AI agent orchestration
 
 ---
 
 ## Related Projects
 
-### Repositories
+These automations were developed through real GTM projects and AI-enabled knowledge work.
 
-⭐ **AI-Native Account Prioritization Engine**  
-https://github.com/ChadBlickenstaff/ai-native-account-prioritization-engine
+🌐 Portfolio Website: https://chadblickenstaff.io
 
-⭐ **GTM Operating Systems**  
-https://github.com/ChadBlickenstaff/gtm-operating-systems
-
----
-
-### Case Studies
-
-🌐 **Building an AI-Native Account Prioritization Engine**  
+🌐 Building an AI-Native Account Prioritization Engine:
 https://chadblickenstaff.io/building-an-ai-native-account-prioritization-engine
 
-🌐 **What I'd Fix at ZoomInfo's RevOps**  
+🌐 What I'd Fix at ZoomInfo's RevOps:
 https://chadblickenstaff.io/what-id-fix-at-zoominfos-revops
+
+⭐ AI Workflow Library:
+https://github.com/ChadBlickenstaff/ai-workflow-library
+
+⭐ GTM Operating Systems:
+https://github.com/ChadBlickenstaff/gtm-operating-systems
+
+⭐ AI-Native Account Prioritization Engine:
+https://github.com/ChadBlickenstaff/ai-native-account-prioritization-engine
 
 ---
 
@@ -129,4 +166,4 @@ https://chadblickenstaff.io/what-id-fix-at-zoominfos-revops
 
 🚧 **Version 1**
 
-This repository will continue to grow as new AI workflows, automations, and reusable systems are developed and documented.
+This repository will continue to grow as new automations, prompt architectures, and AI workflow patterns are developed, tested, and documented.
