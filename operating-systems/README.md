@@ -4,6 +4,8 @@ A decision framework for improving thinking, learning, and decision-making throu
 
 Rather than treating AI as a collection of isolated tools, this operating system defines how human cognition, external knowledge, AI reasoning, and workflow automation interact to improve understanding, execution, and long-term cognitive leverage.
 
+This operating system serves as the cognitive foundation for the Prompt Library, Espanso workflows, and AI workflow patterns documented throughout this repository.
+
 ---
 
 ## Core Philosophy
@@ -171,7 +173,7 @@ Every workflow follows the same philosophy:
 
 ---
 
-## Repository Structure
+## Repository Contents
 
 ```text
 cognitive-fitness-os/
@@ -179,6 +181,7 @@ cognitive-fitness-os/
 ├── README.md
 ├── framework.svg
 ├── decision-matrix.md
+├── prompt-library/
 └── examples/
 ```
 
