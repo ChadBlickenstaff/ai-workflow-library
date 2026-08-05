@@ -1,20 +1,22 @@
 # Prompt Library
 
-A collection of reusable prompts that capture proven thinking patterns rather than one-off instructions.
+A collection of reusable reasoning frameworks that capture proven thinking patterns rather than one-off instructions.
 
-These prompts document repeatable approaches to research, analysis, writing, decision-making, and systems design. They are designed to improve the quality and consistency of knowledge work by standardizing reasoning—not replacing it.
+These prompts encode repeatable approaches to analysis, review, writing, decision-making, and systems design. Their purpose is not simply to generate better outputs—it is to improve the quality and consistency of human judgment.
 
 ---
 
 ## Overview
 
-A good prompt is not simply a better instruction.
+A good prompt is more than a better instruction.
 
-It is a reusable workflow that encodes judgment, constraints, and a repeatable thinking process.
+It is a reusable reasoning framework that encodes judgment, constraints, and a repeatable thinking process.
 
-This library captures prompts refined through real portfolio projects, interview preparation, GTM research, and day-to-day operational work. Each prompt exists because it consistently improves thinking, decision quality, or execution.
+This library captures prompts refined through real portfolio projects, GTM systems work, and day-to-day operational decision-making.
 
-As prompts mature, they often evolve into operating systems, reusable workflows, or templates.
+Each prompt exists because it consistently improves thinking—not because it produces more text.
+
+As these reasoning frameworks mature, they often evolve into operating systems, reusable workflows, or documented methodologies.
 
 ---
 
@@ -22,12 +24,8 @@ As prompts mature, they often evolve into operating systems, reusable workflows,
 
 | Category | Purpose |
 |----------|---------|
-| Operating Systems | Establish durable context and decision frameworks |
-| Analysis | Evaluate ideas, systems, and artifacts |
-| Writing | Produce clear, evidence-based communication |
-| Review | Improve work before publishing |
-| Planning | Structure projects and execution |
-| Reflection | Capture durable learning and improve future decisions |
+| Frameworks | Structure analysis and systems thinking |
+| Review | Improve prompts, writing, and deliverables before shipping |
 
 ---
 
@@ -35,22 +33,22 @@ As prompts mature, they often evolve into operating systems, reusable workflows,
 
 Every prompt in this repository follows the same philosophy:
 
+- Judgment before generation.
 - Thinking before production.
-- Judgment before automation.
+- Review before publication.
 - Workflows over isolated prompts.
-- Reusable systems over one-off instructions.
-- Constraints improve output quality.
+- Reusable reasoning over one-off instructions.
 - Human understanding remains the final objective.
 
 ---
 
 ## How to Use This Repository
 
-Prompts are organized by the type of work they support rather than by AI model.
+Prompts are organized by the type of reasoning they support rather than by AI model.
 
-Most prompts are designed to be used alongside the **Cognitive Fitness OS**, which provides the decision framework, while these prompts execute specific workflows within that system.
+Most prompts are designed to be used alongside the **Cognitive Fitness OS**, which provides the decision framework, while these prompts execute specific reasoning workflows within that system.
 
-As workflows become more durable, they graduate into operating systems, templates, or documented workflows elsewhere in the AI Workflow Library.
+As prompts mature, they may evolve into operating systems, reusable workflows, or documented methodologies elsewhere in the AI Workflow Library.
 
 ---
 
@@ -61,24 +59,18 @@ prompt-library/
 │
 ├── README.md
 │
-├── operating-systems/
-│   ├── operator-os.md
-│   ├── career-os.md
-│   ├── cognitive-fitness-os.md
-│   ├── execution-os.md
-│   ├── weekly-review-os.md
-│   └── case-study-os.md
+├── frameworks/
+│   └── mental-model-framework.md
 │
-├── analysis/
-├── writing/
-├── review/
-├── planning/
-└── reflection/
+└── review/
+    ├── final-review.md
+    ├── prompt-review.md
+    └── publication-readiness-review.md
 ```
 
 ---
 
-## Future Prompt Categories
+## Future Frameworks
 
 Planned additions include:
 
@@ -120,5 +112,4 @@ https://chadblickenstaff.io/what-id-fix-at-zoominfos-revops
 
 🚧 **Version 1**
 
-This library will continue to grow as proven prompts evolve into durable operating systems, reusable workflows, and documented methodologies.
-```
+This library will continue to grow as proven reasoning frameworks evolve into durable operating systems, reusable workflows, and documented methodologies.
