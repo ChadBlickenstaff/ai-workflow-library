@@ -1,0 +1,234 @@
+# Cognitive Fitness OS
+
+A decision framework for improving thinking, learning, and decision-making through intentional collaboration between human cognition and AI.
+
+Rather than treating AI as a collection of isolated tools, this operating system assigns clear responsibilities across research, thinking, execution, production, and learning. The goal is not to generate more content—it is to improve thinking, execution, and long-term cognitive leverage.
+
+---
+
+## Core Philosophy
+
+AI should amplify thinking, not replace it.
+
+- Humans define the problem and make the final judgment.
+- The Cognitive Fitness OS determines how work should be performed.
+- Perplexity researches the external world.
+- ChatGPT manages thinking.
+- The Prompt Library captures reusable workflows.
+- Espanso operationalizes those workflows.
+- Claude produces polished deliverables.
+
+---
+
+## Operating Model
+
+```text
+Problem
+   │
+   ▼
+Human
+Clarify the problem and define the objective.
+   │
+   ▼
+Cognitive Fitness OS
+Select the appropriate workflow.
+   │
+   ├── Research → Perplexity
+   ├── Thinking → ChatGPT
+   ├── Production → Claude
+   └── Reusable Workflow → Prompt Library + Espanso
+   │
+   ▼
+Human
+Review, internalize, and make the final decision.
+```
+
+---
+
+## Responsibilities
+
+### Human
+
+**Purpose**
+
+Own understanding and judgment.
+
+**Responsibilities**
+
+- define the problem
+- resolve ambiguity
+- form independent judgment
+- make final decisions
+- internalize learning
+
+Humans own direction, truth, and judgment.
+
+---
+
+### Perplexity
+
+**Purpose**
+
+Research operating system.
+
+**Best for**
+
+- current information
+- industry research
+- comparisons
+- external evidence
+- citations
+- validating assumptions
+
+Perplexity answers:
+
+> *What does the world currently know?*
+
+---
+
+### ChatGPT
+
+**Purpose**
+
+Thinking operating system.
+
+**Best for**
+
+- synthesis
+- context management
+- planning
+- prioritization
+- critique
+- decision-making
+- prompt architecture
+- workflow design
+- extracting durable learning
+- identifying contradictions
+
+ChatGPT answers:
+
+> *What do I think, and what should I do next?*
+
+---
+
+### Prompt Library
+
+**Purpose**
+
+Knowledge operating system.
+
+**Best for**
+
+- reusable prompt architectures
+- standardized workflows
+- organizational memory
+- repeatable reasoning patterns
+- documented best practices
+
+The Prompt Library captures proven workflows so they can be reused instead of recreated.
+
+---
+
+### Espanso
+
+**Purpose**
+
+Execution operating system.
+
+**Best for**
+
+- workflow automation
+- prompt execution
+- text expansion
+- operational consistency
+- reducing repetitive work
+
+Espanso operationalizes the Prompt Library by executing reusable workflows with a single trigger.
+
+---
+
+### Claude
+
+**Purpose**
+
+Production operating system.
+
+**Best for**
+
+- long-form writing
+- portfolio artifacts
+- documentation
+- strategic synthesis
+- polished deliverables
+- structured reports
+
+Claude answers:
+
+> *How do I turn this thinking into an exceptional deliverable?*
+
+---
+
+## Design Principles
+
+Every workflow follows the same philosophy:
+
+- AI should amplify thinking, not replace it.
+- Separate research, thinking, execution, and production.
+- Automate execution, not judgment.
+- Build workflows instead of prompts.
+- Capture reusable knowledge.
+- Preserve human review before publishing.
+- Capture durable learning after every significant output.
+
+---
+
+## Repository Structure
+
+```text
+cognitive-fitness-os/
+│
+├── README.md
+├── framework.svg
+├── decision-matrix.md
+├── prompt-library/
+├── espanso/
+└── examples/
+```
+
+---
+
+## Future Improvements
+
+Planned additions include:
+
+- Visual operating model
+- Decision matrix for tool selection
+- Example end-to-end workflows
+- AI evaluation framework
+- Prompt routing heuristics
+- Multi-agent workflow patterns
+
+---
+
+## Related Projects
+
+This operating system powers the broader AI workflow ecosystem.
+
+🌐 Portfolio Website: https://chadblickenstaff.io
+
+⭐ AI Workflow Library:
+https://github.com/ChadBlickenstaff/ai-workflow-library
+
+⭐ GTM Operating Systems:
+https://github.com/ChadBlickenstaff/gtm-operating-systems
+
+⭐ AI-Native Account Prioritization Engine:
+https://github.com/ChadBlickenstaff/ai-native-account-prioritization-engine
+
+---
+
+## Status
+
+🚧 **Version 1**
+
+This operating system continues to evolve as new AI capabilities, workflow patterns, and knowledge management practices emerge.
